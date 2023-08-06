@@ -34,7 +34,7 @@ class _AvaliacaoPageState extends State<AvaliacaoPage> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: const Text('Campos obrigatórios vazios'),
+            title: const Text('Campos obrigatórios vazios.'),
             content: const Text('Por favor, preencha todos os campos.'),
             actions: [
               ElevatedButton(
